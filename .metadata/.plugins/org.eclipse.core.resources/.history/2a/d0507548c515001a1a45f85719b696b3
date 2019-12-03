@@ -18,8 +18,7 @@ public class Config {
 	Queue ForeignQueue() {
 		return new Queue("ForeignQueue", true);
 	}
-    
-	//created exchange
+
 	@Bean
 	HeadersExchange headerExchange() {
 		return new HeadersExchange("Exchanger");
